@@ -1,5 +1,6 @@
-export default function test({ha}) {
-	console.log(ha)
+export default function test({ ha }) {
+  const bla = 'nah';
+  console.log(ha + bla);
 }
 
-test({ha: 1})
+test({ ha: 1 });

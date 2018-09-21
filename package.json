@@ -2,7 +2,7 @@
   "name": "basic-chat",
   "version": "1.0.0",
   "description": "A basic chat system using vanilla javascript",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode=development",
     "build": "webpack --mode=production",
@@ -13,7 +13,8 @@
     "url": "git+https://github.com/wellyal/basic-chat.git"
   },
   "keywords": [
-    "chat"
+    "chat",
+    "javascript"
   ],
   "author": "Wellyngton Amaral",
   "license": "ISC",
@@ -25,6 +26,9 @@
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.2",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "html-webpack-plugin": "^4.0.0-alpha.2",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0",
