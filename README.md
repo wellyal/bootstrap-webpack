@@ -1,2 +1,2 @@
-# basic-chat
-A basic chat system
+# Bootstrap Webpack
+Basic setup for webpack
